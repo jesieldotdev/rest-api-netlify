@@ -1,0 +1,13 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "API Express no Netlify",
+  "main": "src/api.js",
+  "scripts": {
+    "build": "cp src/api.js functions/api.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "serverless-http": "^2.7.0"
+  }
+}
