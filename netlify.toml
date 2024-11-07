@@ -1,7 +1,6 @@
-# netlify.toml
 [build]
-  functions = "functions"
-  publish = "build"
+  functions = "functions"  # A pasta onde as funções estão localizadas
+  publish = ""  # Não há publicação de arquivos estáticos, se for só API
 
 [[redirects]]
   from = "/api/*"
