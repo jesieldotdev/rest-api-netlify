@@ -1,4 +1,3 @@
-// functions/api.js
 const express = require('express');
 const app = express();
 const serverless = require('serverless-http');
